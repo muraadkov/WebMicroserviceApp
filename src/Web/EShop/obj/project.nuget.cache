@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fZA4Q8WKlG1qGCxhV2nOOjBmRdxqzbQLiP5VN8edo7C0rWbEOLk1d5WIHgy7btRAzrk/zVfP2wsDl+6y59R7FQ==",
+  "dgSpecHash": "zd1UItilKVMVQ0U9+v/ncN65zdYpMRShIH1nISJ55Px75VS/bYVtyVjhY89Bxhb3Voa/1NWyLnTUmXIZVMNhBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\murka\\source\\repos\\EShop\\EShop.csproj",
+  "projectFilePath": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\Web\\EShop\\EShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\murka\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.3\\microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
     "C:\\Users\\murka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.3\\microsoft.entityframeworkcore.abstractions.5.0.3.nupkg.sha512",
@@ -17,6 +17,7 @@
     "C:\\Users\\murka\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\murka\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\murka\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\murka\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\murka\\.nuget\\packages\\npgsql\\5.0.2\\npgsql.5.0.2.nupkg.sha512",
     "C:\\Users\\murka\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.2\\npgsql.entityframeworkcore.postgresql.5.0.2.nupkg.sha512",
     "C:\\Users\\murka\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",

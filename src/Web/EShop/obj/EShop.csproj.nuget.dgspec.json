@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murka\\source\\repos\\EShop\\EShop.csproj": {}
+    "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\Web\\EShop\\EShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murka\\source\\repos\\EShop\\EShop.csproj": {
+    "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\Web\\EShop\\EShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murka\\source\\repos\\EShop\\EShop.csproj",
+        "projectUniqueName": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\Web\\EShop\\EShop.csproj",
         "projectName": "EShop",
-        "projectPath": "C:\\Users\\murka\\source\\repos\\EShop\\EShop.csproj",
+        "projectPath": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\Web\\EShop\\EShop.csproj",
         "packagesPath": "C:\\Users\\murka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murka\\source\\repos\\EShop\\obj\\",
+        "outputPath": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\Web\\EShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

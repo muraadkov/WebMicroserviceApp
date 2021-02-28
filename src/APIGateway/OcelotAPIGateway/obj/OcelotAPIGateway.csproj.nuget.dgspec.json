@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murka\\source\\repos\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {}
+    "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\APIGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murka\\source\\repos\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {
+    "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\APIGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murka\\source\\repos\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
+        "projectUniqueName": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\APIGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
         "projectName": "OcelotAPIGateway",
-        "projectPath": "C:\\Users\\murka\\source\\repos\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
+        "projectPath": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\APIGateway\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
         "packagesPath": "C:\\Users\\murka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murka\\source\\repos\\OcelotAPIGateway\\obj\\",
+        "outputPath": "C:\\Users\\murka\\source\\repos\\MicroserviceApplication\\src\\APIGateway\\OcelotAPIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,13 +42,13 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[2.2.8, )"
+              "version": "[1.10.9, )"
             },
             "Ocelot": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[16.0.1, )"
             }
           },
           "imports": [

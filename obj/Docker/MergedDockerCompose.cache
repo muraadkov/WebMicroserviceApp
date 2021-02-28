@@ -1,0 +1,114 @@
+services:
+  basket.api:
+    container_name: basketapi
+    depends_on:
+      basketdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:Redis: localhost:6379
+    image: adylkanovv/basketapi:1.0
+    ports:
+    - published: 8001
+      target: 80
+    - target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  basketdb:
+    container_name: basketdb
+    image: redis
+    ports:
+    - published: 6379
+      target: 6379
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+  catalog.api:
+    container_name: catalogapi
+    depends_on:
+      catalogdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      CatalogDatabaseSettings:ConnectionString: mongodb://catalogdb:27017
+    image: adylkanovv/catalogapi:latest
+    ports:
+    - published: 8000
+      target: 80
+    - target: 80
+    volumes:
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  catalogdb:
+    container_name: catalogdb
+    image: mongo
+    ports:
+    - published: 27017
+      target: 27017
+    restart: always
+    volumes:
+    - /site:/data/db:rw
+  eshop:
+    build:
+      context: C:\Users\murka\source\repos\MicroserviceApplication
+      dockerfile: src/Web/EShop/Dockerfile
+    container_name: shoppingweb
+    depends_on:
+      basket.api:
+        condition: service_started
+      catalog.api:
+        condition: service_started
+      ocelotapigateway:
+        condition: service_started
+      ordering.api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ApiSettings:BaseAddress: ocelotapigateway
+    image: eshop
+    ports:
+    - published: 8003
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\murka\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\murka\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  ocelotapigateway:
+    build:
+      context: C:\Users\murka\source\repos\MicroserviceApplication
+      dockerfile: src/APIGateway/OcelotAPIGateway/Dockerfile
+    depends_on:
+      basket.api:
+        condition: service_started
+      catalog.api:
+        condition: service_started
+      ordering.api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: ocelotapigateway
+    ports:
+    - published: 7000
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\murka\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - /.aspnet/https:/root/.aspnet/https/:rw
+    - /.microsoft/usersecrets:/root/.microsoft/usersecrets:rw
+  ordering.api:
+    build:
+      context: C:\Users\murka\source\repos\MicroserviceApplication
+      dockerfile: src/Ordering/Ordering.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: orderingapi
+    ports:
+    - target: 80
+  rabbitmq:
+    image: rabbitmq:3-management
+version: '3.4'
