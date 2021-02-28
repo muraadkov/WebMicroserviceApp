@@ -96,4 +96,5 @@
       "UpstreamPathTemplate": "/Order/{id}",
       "UpstreamHttpMethod": [ "Get", "Delete" ]
     }
+  ]
 }
