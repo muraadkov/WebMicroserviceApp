@@ -1,0 +1,9 @@
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Application.deps.json
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Application.dll
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\bin\Debug\netcoreapp3.1\Ordering.Application.pdb
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.csprojAssemblyReference.cache
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.AssemblyInfoInputs.cache
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.AssemblyInfo.cs
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.csproj.CoreCompileInputs.cache
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.dll
+C:\Users\murka\source\repos\MicroserviceApplication\src\Ordering\Ordering.Application\obj\Debug\netcoreapp3.1\Ordering.Application.pdb

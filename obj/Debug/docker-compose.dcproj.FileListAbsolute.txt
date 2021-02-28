@@ -1,0 +1,16 @@
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Basket.API.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Catalog.API.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Ordering.API.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\MongoDB.Driver.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\MongoDB.Bson.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Microsoft.OpenApi.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\DnsClient.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\SharpCompress.dll
+C:\Users\murka\source\repos\MicroserviceApplication\bin\Debug\Catalog.API.pdb
+C:\Users\murka\source\repos\MicroserviceApplication\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\murka\source\repos\MicroserviceApplication\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
